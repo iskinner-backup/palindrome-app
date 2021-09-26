@@ -29,5 +29,4 @@ need to update some security privileges for the purposes of screen recording.
 
 Demo
 
-https://user-images.githubusercontent.com/91413896/134821864-61c95d86-8268-4ed9-a19f-0095ad4a264a.mov
-
+https://user-images.githubusercontent.com/91413896/134825798-6da54703-27d2-41c1-9afe-ebd29cf7a572.mov
