@@ -1,0 +1,10 @@
+@import "variables";
+
+.palindrome-text {
+  margin-top: 1.5rem;
+  color: $red;
+
+  &.palindrome {
+    color: $green;
+  }
+}
