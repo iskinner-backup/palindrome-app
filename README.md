@@ -28,4 +28,6 @@ system `npm i -g testcafe` and run `testcafe firefox test/palindromeTest.js`, de
 need to update some security privileges for the purposes of screen recording.
 
 Demo
-![TestCafé](testcafe.gif)
+
+https://user-images.githubusercontent.com/91413896/134821864-61c95d86-8268-4ed9-a19f-0095ad4a264a.mov
+
