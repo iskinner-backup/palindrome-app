@@ -28,7 +28,7 @@ class TestCase {
 
     async verifyPalindrome(t) {
         const expectedIcon = `fa-thumbs-${this.isPalindrome ? 'up' : 'down'}`,
-            expectedText = ` "${this.removeSpaces ? this.input.replace(/\s+/g, '') : this.input}" is ${this.isPalindrome ? '' : 'not '}a palindrome!`
+            expectedText = `"${this.removeSpaces ? this.input.replace(/\s+/g, '') : this.input}" is ${this.isPalindrome ? '' : 'not '}a palindrome!`
 
         await t.expect(Selector('svg.svg-inline--fa').classNames).contains(expectedIcon)
             .expect(Selector('.palindrome-text').innerText).eql(expectedText)

@@ -3,6 +3,7 @@ import {Selector} from "testcafe";
 
 // eslint-disable-next-line no-undef
 fixture `Palindrome Testing`
+    // .page `http://localhost:3000`;
     .page `https://thirsty-meitner-ca833a.netlify.app`;
 
 test('Negative Test Case: [foo bar]', async t => await new TestCase('foo bar', false).run(t))

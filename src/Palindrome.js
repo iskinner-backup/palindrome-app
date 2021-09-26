@@ -35,7 +35,7 @@ export default function Palindrome(props) {
 
   return(
     <div className={`palindrome-text ${isPalindrome ? 'palindrome' : ''}`}>
-      <FontAwesomeIcon icon={isPalindrome ? faThumbsUp : faThumbsDown} /> "{props.text}" is {isPalindrome ? '' : 'not'} a palindrome!
+      <FontAwesomeIcon icon={isPalindrome ? faThumbsUp : faThumbsDown} />"{props.text}" is {isPalindrome ? '' : 'not'} a palindrome!
     </div>
   )
 }
