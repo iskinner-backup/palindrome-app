@@ -2,9 +2,11 @@
 
 .palindrome-text {
   margin-top: 1.5rem;
+  font-weight: 700;
+  font-style: italic;
   color: $red;
 
   &.palindrome {
-    color: $green;
+    color: $color-primary-0;
   }
 }
